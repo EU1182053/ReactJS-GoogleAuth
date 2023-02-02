@@ -20,6 +20,9 @@ var userSchema = new mongoose.Schema({
     maxlength: 30,
     
   },
+  resetLink:{
+    data: String
+  }
 });
 
 
